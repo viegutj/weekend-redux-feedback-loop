@@ -44,7 +44,7 @@ The `Comments` step does not need to be validated, an empty value is okay.
 
 ## THE REVIEW COMPONENT
 
-The last step of the process will allow the user to review their feedback. Users are not able to change their input on this step or go back for Base Mode. 
+The last step of the process will allow the user to review their feedback. Users are not able to change their input on this step or go back for Base Mode.
 
 ![comments](wireframes/review-active.png)
 
@@ -77,4 +77,4 @@ Improve the styling of the app using Material-UI. This might include cards, snac
 - Add the ability to flag an existing feedback entry for further review on the /admin view.
 
 ### DEPLOY
-Deploy your project to Heroku. You'll need to read the special instructions for building and deploying with React. 
+Deploy your project to Heroku. You'll need to read the special instructions for building and deploying with React.
