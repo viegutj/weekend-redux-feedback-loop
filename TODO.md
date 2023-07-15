@@ -12,24 +12,24 @@ The parts:
 ### SETUP
 Create your database and tables using the provided `data.sql` file. Start the server.
 
-- [ ] npm install
-- [ ] npm run server
+- [x] npm install
+- [x] npm run server
 
 Now that the server is running, open a new terminal tab with `cmd + t` and start the react client app.
 
-- [ ] npm run client
-x
-- [ ] set up database
+- [x] npm run client
+
+- [x] set up database
 
 ### ROAD MAP
 
-- [ ] Create all component folder and files.jsx
-    - [ ] Feeling
-    - [ ] Understanding
-    - [ ] Support
-    - [ ] Comments
-    - [ ] Review
-    - [ ] Thanks
+- [x] Create all component folder and files.jsx
+    - [x] Feeling
+    - [x] Understanding
+    - [x] Support
+    - [x] Comments
+    - [x] Review
+    - [x] Thanks
 
 - [ ] Create front end-router in App.jsx
 
