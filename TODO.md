@@ -31,7 +31,7 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
     - [x] Review
     - [x] Thanks
 
-- [ ] Create front end-router in App.jsx
+- [x] Create front end-router in App.jsx
 
 - [ ] Set up <Feeling />
     - [ ] Write return statement HTML
