@@ -6,7 +6,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom';
 
 // import our components
 import Feeling from '../Feeling/Feeling';
-// import Understanding from '../Understanding/Understanding'
+import Understanding from '../Understanding/Understanding'
 // import Support from '../Support/Support'
 // import Comments from '../Comments/Comments'
 // import Review from '../Review/Review'
@@ -28,10 +28,10 @@ function App() {
             <Route path='/' exact>
                 <Feeling />
             </Route>
-            {/* <Route path='/understanding'>
+            <Route path='/understanding'>
               <Understanding />
             </Route>
-            <Route path='/support'>
+            {/* <Route path='/support'>
               <Support />
             </Route>
             <Route path='/comments'>

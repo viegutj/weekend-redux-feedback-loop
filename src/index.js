@@ -16,10 +16,18 @@ const feelings = (state = '', action) => {
     return state
 }
 
+const understanding = (state = '', action) => {
+    if (action.type === 'COLLECT_SUPPORT'){
+        return action.payload
+    }
+    return state
+}
+
 // Store to keep track of state
 const store = createStore(
     combineReducers({
-        feelings
+        feelings,
+        understanding
     }),
     applyMiddleware(logger)
 )
