@@ -41,10 +41,10 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
     - [x] Write a reducer in index.js
 
 - [ ] Set up <Understanding />
-    - [ ] Write return statement HTML
-    - [ ] Create required for input
-    - [ ] Use useHistory() to route to next page
-    - [ ] Dispatch an action for type: 'UNDERSTANDING' payload: understanding
+    - [x] Write return statement HTML
+    - [x] Create required for input
+    - [x] Use useHistory() to route to next page
+    - [x] Dispatch an action for type: 'UNDERSTANDING' payload: understanding
     - [ ] Write a reducer in index.js
 
 - [ ] Set up <Support />
