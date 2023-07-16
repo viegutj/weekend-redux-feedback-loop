@@ -54,21 +54,21 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
     - [x] Dispatch an action for type: 'SUPPORT' payload: support
     - [x] Write a reducer in index.js
 
-- [ ] Set up <Comments />
+- [x] Set up <Comments />
     - [x] Write return statement HTML
     - [x] Create required for input
     - [x] Use useHistory() to route to next page
     - [x] Dispatch an action for type: 'COMMENTS' payload: comments
-    - [ ] Write a reducer in index.js
+    - [x] Write a reducer in index.js
 
 - [ ] Set up <Review />
-    - [ ] Write return statement HTML
+    - [x] Write return statement HTML
     - [ ] Bring in data from state
-        - [ ] import useSelector
-        - [ ] const feelings = useSelector(store => store.feelings)
-        - [ ] const understanding = useSelector(store => store.understanding)
-        - [ ] const support = useSelector(store => store.support)
-        - [ ] const comments = useSelector(store => store.support)
+        - [x] import useSelector
+        - [x] const feelings = useSelector(store => store.feelings)
+        - [x] const understanding = useSelector(store => store.understanding)
+        - [x] const support = useSelector(store => store.support)
+        - [x] const comments = useSelector(store => store.support)
     - [ ] Write axios.post request that contains this data as an object
     - [ ] Route to <Thanks />
 

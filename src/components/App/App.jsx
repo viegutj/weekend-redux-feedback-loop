@@ -9,11 +9,10 @@ import Feeling from '../Feeling/Feeling';
 import Understanding from '../Understanding/Understanding'
 import Support from '../Support/Support'
 import Comments from '../Comments/Comments'
-// import Review from '../Review/Review'
-// import Thanks from '../Review/Review'
+import Review from '../Review/Review'
+// import Thanks from '../Thanks/Thanks'
 
 function App() {
-
 
     return (
       <>
@@ -37,10 +36,10 @@ function App() {
             <Route path='/comments'>
               <Comments />
             </Route>
-            {/* <Route path='/review'>
+            <Route path='/review'>
               <Review />
             </Route>
-            <Route path='/thanks'>
+            {/* <Route path='/thanks'>
               <Thanks />
             </Route> */}
             </Router>
