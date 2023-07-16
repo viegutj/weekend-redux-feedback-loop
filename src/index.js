@@ -17,6 +17,13 @@ const feelings = (state = '', action) => {
 }
 
 const understanding = (state = '', action) => {
+    if (action.type === 'COLLECT_UNDERSTANDING'){
+        return action.payload
+    }
+    return state
+}
+
+const support = (state = '', action) => {
     if (action.type === 'COLLECT_SUPPORT'){
         return action.payload
     }
@@ -27,7 +34,8 @@ const understanding = (state = '', action) => {
 const store = createStore(
     combineReducers({
         feelings,
-        understanding
+        understanding,
+        support
     }),
     applyMiddleware(logger)
 )

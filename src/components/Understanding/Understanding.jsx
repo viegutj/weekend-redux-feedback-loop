@@ -18,13 +18,13 @@ function Understanding() {
         // prevent page refresh and direct client to /support
     function handleNext(event) {
         event.preventDefault();
+        // dispatch an action, sending payload to the reducer in index.js
+        dispatch({type: 'COLLECT_UNDERSTANDING', payload: {
+                understanding
+            }})
         history.push('/support')
     }
 
-    // dispatch an action, sending payload to the reducer in index.js
-    dispatch({type: 'COLLECT_SUPPORT', payload: {
-            understanding
-        }})
 
     // return HTML to be displayed on the page
     return (

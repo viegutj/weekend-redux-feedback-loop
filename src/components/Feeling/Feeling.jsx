@@ -18,13 +18,13 @@ function Feeling() {
         // prevent page refresh and direct client to /understanding
     function handleNext(event) {
         event.preventDefault();
+        // dispatch an action, sending payload to the reducer in index.js
+        dispatch({type: 'COLLECT_FEELINGS', payload: {
+                feeling
+            }})
         history.push('/understanding')
     }
 
-    // dispatch an action, sending payload to the reducer in index.js
-    dispatch({type: 'COLLECT_FEELINGS', payload: {
-            feeling
-        }})
 
     // return HTML to be displayed on the page
     return (
