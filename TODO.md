@@ -61,7 +61,7 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
     - [x] Dispatch an action for type: 'COMMENTS' payload: comments
     - [x] Write a reducer in index.js
 
-- [ ] Set up <Review />
+- [x] Set up <Review />
     - [x] Write return statement HTML
     - [x] Bring in data from state
         - [x] import useSelector
@@ -69,8 +69,8 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
         - [x] const understanding = useSelector(store => store.understanding)
         - [x] const support = useSelector(store => store.support)
         - [x] const comments = useSelector(store => store.support)
-    - [ ] Write axios.post request that contains this data as an object
-    - [ ] Route to <Thanks />
+    - [x] Write axios.post request that contains this data as an object
+    - [x] Route to <Thanks />
 
 - [ ] Set up <Thanks />
     - [ ] Write return statement with HTML
