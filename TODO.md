@@ -33,32 +33,32 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
 
 - [x] Create front end-router in App.jsx
 
-- [ ] Set up <Feeling />
-    - [ ] Write return statement HTML
-    - [ ] Create required for input
-    - [ ] Dispatch an action for type: 'FEELING' payload: feeling
-    - [ ] Use useHistory() to route to next page
-    - [ ] Write a reducer in index.js
+- [x] Set up <Feeling />
+    - [x] Write return statement HTML
+    - [x] Create required for input
+    - [x] Dispatch an action for type: 'FEELING' payload: feeling
+    - [x] Use useHistory() to route to next page
+    - [x] Write a reducer in index.js
 
 - [ ] Set up <Understanding />
     - [ ] Write return statement HTML
     - [ ] Create required for input
-    - [ ] Dispatch an action for type: 'UNDERSTANDING' payload: understanding
     - [ ] Use useHistory() to route to next page
+    - [ ] Dispatch an action for type: 'UNDERSTANDING' payload: understanding
     - [ ] Write a reducer in index.js
 
 - [ ] Set up <Support />
     - [ ] Write return statement HTML
     - [ ] Create required for input
-    - [ ] Dispatch an action for type: 'SUPPORT' payload: support
     - [ ] Use useHistory() to route to next page
+    - [ ] Dispatch an action for type: 'SUPPORT' payload: support
     - [ ] Write a reducer in index.js
 
 - [ ] Set up <Comments />
     - [ ] Write return statement HTML
     - [ ] Create required for input
-    - [ ] Dispatch an action for type: 'COMMENTS' payload: comments
     - [ ] Use useHistory() to route to next page
+    - [ ] Dispatch an action for type: 'COMMENTS' payload: comments
     - [ ] Write a reducer in index.js
 
 - [ ] Set up <Review />

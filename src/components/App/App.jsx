@@ -3,11 +3,20 @@ import axios from 'axios';
 import './App.css';
 import {HashRouter as Router, Route, Link} from 'react-router-dom';
 
+
+// import our components
+import Feeling from '../Feeling/Feeling';
+// import Understanding from '../Understanding/Understanding'
+// import Support from '../Support/Support'
+// import Comments from '../Comments/Comments'
+// import Review from '../Review/Review'
+// import Thanks from '../Review/Review'
+
 function App() {
 
 
     return (
-        <>
+      <>
             <Router>
                 <div className='App'>
                     <header className='App-header'>
@@ -15,12 +24,11 @@ function App() {
                         <h4>Don't forget it!</h4>
                     </header>
                 </div>
-            </Router>
 
-            <Route path='/feeling'>
+            <Route path='/' exact>
                 <Feeling />
             </Route>
-            <Route path='/understanding'>
+            {/* <Route path='/understanding'>
               <Understanding />
             </Route>
             <Route path='/support'>
@@ -34,7 +42,8 @@ function App() {
             </Route>
             <Route path='/thanks'>
               <Thanks />
-            </Route>
+            </Route> */}
+            </Router>
         </>
     );
 }

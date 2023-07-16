@@ -3,9 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
 
+// import Redux dependencies
+import {Provider} from 'react-redux';
+import {createStore, combineReducers, applyMiddleware} from 'redux';
+import logger from 'redux-logger'
+
+// Reducers
+const feelings = (state = '', action) => {
+    if (action.type === 'COLLECT_FEELINGS') {
+        return action.payload
+    }
+    return state
+}
+
+// Store to keep track of state
+const store = createStore(
+    combineReducers({
+        feelings
+    }),
+    applyMiddleware(logger)
+)
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render (
     <React.StrictMode>
-        <App />
+        <Provider store={store}>
+            <App/>
+        </Provider>
     </React.StrictMode>
 );
