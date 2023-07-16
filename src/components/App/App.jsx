@@ -8,7 +8,7 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom';
 import Feeling from '../Feeling/Feeling';
 import Understanding from '../Understanding/Understanding'
 import Support from '../Support/Support'
-// import Comments from '../Comments/Comments'
+import Comments from '../Comments/Comments'
 // import Review from '../Review/Review'
 // import Thanks from '../Review/Review'
 
@@ -34,10 +34,10 @@ function App() {
             <Route path='/support'>
               <Support />
             </Route>
-            {/* <Route path='/comments'>
+            <Route path='/comments'>
               <Comments />
             </Route>
-            <Route path='/review'>
+            {/* <Route path='/review'>
               <Review />
             </Route>
             <Route path='/thanks'>

@@ -30,12 +30,20 @@ const support = (state = '', action) => {
     return state
 }
 
+const comments = (state ='', action) => {
+    if(action.type === 'COLLECT_COMMENTS'){
+        return action.payload
+    }
+    return state
+}
+
 // Store to keep track of state
 const store = createStore(
     combineReducers({
         feelings,
         understanding,
-        support
+        support,
+        comments
     }),
     applyMiddleware(logger)
 )

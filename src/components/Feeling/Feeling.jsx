@@ -15,7 +15,7 @@ function Feeling() {
     const history = useHistory();
 
     // function to handle the button click on next
-        // prevent page refresh and direct client to /understanding
+    // prevent page refresh, dispatch an action, and direct client to /support
     function handleNext(event) {
         event.preventDefault();
         // dispatch an action, sending payload to the reducer in index.js
