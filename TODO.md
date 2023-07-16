@@ -63,7 +63,7 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
 
 - [ ] Set up <Review />
     - [x] Write return statement HTML
-    - [ ] Bring in data from state
+    - [x] Bring in data from state
         - [x] import useSelector
         - [x] const feelings = useSelector(store => store.feelings)
         - [x] const understanding = useSelector(store => store.understanding)
