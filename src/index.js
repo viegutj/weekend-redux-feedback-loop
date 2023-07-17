@@ -12,6 +12,8 @@ import logger from 'redux-logger'
 const feelings = (state = '', action) => {
     if (action.type === 'COLLECT_FEELINGS') {
         return action.payload
+    }else if(action.type === 'CLEAR_INPUT'){
+        return ''
     }
     return state
 }
@@ -19,6 +21,8 @@ const feelings = (state = '', action) => {
 const understanding = (state = '', action) => {
     if (action.type === 'COLLECT_UNDERSTANDING'){
         return action.payload
+    } else if(action.type === 'CLEAR_INPUT'){
+        return ''
     }
     return state
 }
@@ -26,6 +30,8 @@ const understanding = (state = '', action) => {
 const support = (state = '', action) => {
     if (action.type === 'COLLECT_SUPPORT'){
         return action.payload
+    } else if(action.type === 'CLEAR_INPUT'){
+        return ''
     }
     return state
 }
@@ -33,6 +39,8 @@ const support = (state = '', action) => {
 const comments = (state ='', action) => {
     if(action.type === 'COLLECT_COMMENTS'){
         return action.payload
+    } else if(action.type === 'CLEAR_INPUT'){
+        return ''
     }
     return state
 }

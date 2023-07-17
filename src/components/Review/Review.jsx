@@ -1,7 +1,7 @@
 // import dependencies to communicate state
 import {useSelector, useDispatch} from "react-redux";
 import {useState} from "react";
-import {useHistory} from "react-router-dom/cjs/react-router-dom";
+import {useHistory} from "react-router-dom";
 import axios from 'axios';
 
 function Review() { 
@@ -23,7 +23,6 @@ function Review() {
         if (confirm('Submit feedback?')) {
             axios.post('/review', dataObject)
             .then((response) => {
-                // dispatch({type: 'SUBMIT'})
                 history.push('/thanks')
             })
             .catch((error) => {

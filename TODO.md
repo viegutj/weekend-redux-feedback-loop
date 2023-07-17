@@ -73,6 +73,6 @@ Now that the server is running, open a new terminal tab with `cmd + t` and start
     - [x] Route to <Thanks />
 
 - [ ] Set up <Thanks />
-    - [ ] Write return statement with HTML
+    - [x] Write return statement with HTML
     - [ ] On button click, clear state
-    - [ ] On button click, route to <Feeling />
+    - [x] On button click, route to <Feeling />
